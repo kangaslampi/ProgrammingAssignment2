@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## the magical matrix-like object returned by the above 
 ## function of excellence. But lo and behold! If such an inverse has already 
 ## been established, this clever chap of a function instead retrieves 
-## this pre-determined inverse from the depts of the cache itself!
+## this pre-determined inverse from the depths of the cache itself!
 
 cacheSolve <- function(x, ...) {
         inv <- x$getinverse()
